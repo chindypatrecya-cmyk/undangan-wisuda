@@ -154,6 +154,11 @@ export default function App() {
     setTimeout(() => setToast((t) => ({ ...t, show: false })), 2800);
   };
 
+  const openMaps = () => {
+    showToast("Membuka maps!");
+    window.open("https://maps.app.goo.gl/v2pa5RepFbbUjNV56", "_blank");
+  };
+
   return (
     <>
       <div className="page">
@@ -222,10 +227,7 @@ export default function App() {
                 Makassar
               </div>
             </div>
-            <button
-              className="map-btn"
-              onClick={() => showToast("Membuka Google Maps...")}
-            >
+            <button className="map-btn" onClick={openMaps}>
               Lihat Peta
             </button>
           </div>
