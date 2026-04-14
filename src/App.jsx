@@ -164,12 +164,12 @@ export default function App() {
             <div className="tag">Undangan Wisuda</div>
             <div className="invite-label">Dengan bangga mempersembahkan</div>
             <div className="name">
-              <em>Chindy</em>
+              <em>Patrecya Chindy</em>
             </div>
             <div className="degree">
-              Sarjana Teknik Informatika
+              Sarjana Ilmu Komputer
               <br />
-              Universitas Indonesia · 2026
+              STMIK Profesional Makassar · 2026
             </div>
           </div>
 
@@ -215,11 +215,11 @@ export default function App() {
           <div className="card-venue">
             <div className="venue-left">
               <div className="info-label">Lokasi</div>
-              <div className="venue-name">Balairung Universitas Indonesia</div>
+              <div className="venue-name">STMIK Profesional Makassar</div>
               <div className="venue-addr">
-                Jl. Margonda Raya, Depok,
+                Jl. A.P Pettarani
                 <br />
-                Jawa Barat 16424
+                Makassar
               </div>
             </div>
             <button
